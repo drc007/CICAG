@@ -1,0 +1,53 @@
+version: 1
+project:
+  title: CICAG python course
+  author: CICAG
+  github: https://github.com/drc007/CICAG
+  toc:
+  - file: index.md
+    title: Home
+  - title: 1 Tools And Setup
+    children:
+    - file: 1 Tools and setup/1 VS code overview.ipynb
+      title: 1 Vs Code Overview
+    - file: 1 Tools and setup/2 Miniforge overview.ipynb
+      title: 2 Miniforge Overview
+  - title: 2 Lets Get Coding!
+    children:
+    - file: 2 Lets get coding!/1 Python Fundimentals - Data types and collections.ipynb
+      title: 1 Python Fundimentals - Data Types And Collections
+    - file: 2 Lets get coding!/2 Good coding practice.ipynb
+      title: 2 Good Coding Practice
+    - file: 2 Lets get coding!/3 Python basics.ipynb
+      title: 3 Python Basics
+    - file: 2 Lets get coding!/4 Functions.ipynb
+      title: 4 Functions
+    - file: 2 Lets get coding!/5 Using llms and other coding tools.ipynb
+      title: 5 Using Llms And Other Coding Tools
+  - title: 3 Chemistry Relevant Libaries
+    children:
+    - file: 3 Chemistry relevant libaries/1 Intro and pandas.ipynb
+      title: 1 Intro And Pandas
+    - file: 3 Chemistry relevant libaries/2 Using RDKit.ipynb
+      title: 2 Using Rdkit
+    - file: 3 Chemistry relevant libaries/3 Data Visualisation.ipynb
+      title: 3 Data Visualisation
+  - title: 4 Lets Code A Project!
+    children:
+    - file: 4 Lets code a project!/1 Intro.ipynb
+      title: 1 Intro
+    - file: 4 Lets code a project!/2 Exploring Alkane Properties with Python.ipynb
+      title: 2 Exploring Alkane Properties With Python
+    - file: 4 Lets code a project!/3 AZ Example beginner cheminformatics exercise
+        interactive scatterplot with molecule-image tooltips.ipynb
+      title: 3 Az Example Beginner Cheminformatics Exercise Interactive Scatterplot
+        With Molecule-Image Tooltips
+    - file: 4 Lets code a project!/4 API calls.ipynb
+      title: 4 Api Calls
+    - file: 4 Lets code a project!/5 Automation interface.ipynb
+      title: 5 Automation Interface
+site:
+  template: book-theme
+  options:
+    repository: https://github.com/drc007/CICAG
+    branch: main

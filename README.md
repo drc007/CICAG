@@ -17,6 +17,9 @@ The course for hosting as a Jupyter Book and is structured as follows:
 - **CICAG_course_slides:**
   - Contains the slides to be delivered alongside the Jupyter book
 
+- **User Contributions**
+- More advanced notebooks that have been contributed
+
 Other files:
 
 - **myst-yml-builder.py:**

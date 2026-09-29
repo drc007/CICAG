@@ -1,0 +1,26 @@
+# Conda environment for the hERG ChEMBL notebook.
+#
+#   conda env create -f environment.yml
+#   conda activate chembl-herg
+#   python -m ipykernel install --user --name chembl --display-name "Python (chembl)"
+#
+# The notebook expects the kernel to be named "chembl".
+name: chembl-herg
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - numpy>=2.0
+  - pandas>=2.2
+  - matplotlib>=3.8
+  - rdkit>=2024.03
+  - requests>=2.31
+  - jupyterlab>=4.0
+  - ipykernel>=6.29
+  - nbconvert>=7.0
+  - pip
+  - pip:
+      # Not on conda-forge; the official EMBL-EBI REST client.
+      - chembl_webresource_client>=0.10.9

@@ -96,6 +96,6 @@ separately as `aliphatic_amine` and `amidine_guanidine`.
 ## Notes
 
 - **The ChEMBL API goes down sometimes.** Cells can fail with an HTTP 500 from the server. It's
-  usually transient; wait and re-run.
+  usually transient; wait and re-run. Alternatively you can use the .csv files in the folder
 - **Data version.** Results depend on the ChEMBL release that the API is serving, so counts will
   drift as new data is deposited.
